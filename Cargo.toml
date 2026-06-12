@@ -19,6 +19,9 @@ serde = "1.0.228"
 [dev-dependencies]
 serde = { version = "1", features = ["derive"] }
 base64 = "0.22"
+iocore = "3.1.0"
+thiserror = "2.0.18"
+color-eyre = "0.6.5"
 
 [lints.rust]
 unexpected_cfgs = { level = "warn", check-cfg = ['cfg(postbag_fast_compile)'] }
